@@ -1,7 +1,6 @@
 # Digitaler Anhang zur Diplomarbeit
 
-Dieses Repository enthält die digitalen Dateien der Diplomarbeit „Training von Reinforcement Learning Agenten zur Regelung eines Gebäudeenergiesystems“.
-
+Enthalten: Digitale Dateien der Diplomarbeit „Training von Reinforcement Learning Agenten zur Regelung eines Gebäudeenergiesystems“
 Autorin: Antonia Johanna Beatrice Spall
 
 ---
@@ -58,6 +57,7 @@ Autorin: Antonia Johanna Beatrice Spall
     - Weitere Skripte → Plotten einzelner oder mehrerer Werte aus den Ergebnisfiles  
   - `pressure_drop/` → Daten und Auswertung der Druckverlustmessung  
   - `weather/` → Wetterdateien und Skripte zur Erzeugung dieser  
+        `DEU_Berlin.103840_IWEC.mos` → verwendetes Wetterfile für die Simulation
   - `wp_test.py` → Skript zum Plotten der Wärmepumpen-Leistungsdaten  
   - `gaussian_head.py` → Ermitteln des Gaussian Heads von fertigen Agenten  
   - `hp_tables.py` → Skalieren der Wärmepumpen-Tabellen für Dymola  
