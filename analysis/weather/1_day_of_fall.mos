@@ -1,0 +1,65 @@
+#1
+# double tab1(8760,30)
+#LOCATION,BERLIN,-,DEU,IWEC Data,103840,52.47,13.40,1.0,49.0
+#DESIGN CONDITIONS,1,Climate Design Data 2009 ASHRAE Handbook,,Heating,2,-11.8,-9.2,-15,1,-10.8,-12.3,1.3,-8.3,12.8,6.3,11.5,6.6,3.3,100,Cooling,7,9.2,30,18.9,28,18.2,26.2,17.5,20.1,26.9,19.2,25.8,18.3,24.3,3.7,150,18,13,22.1,16.9,12.1,21.2,16,11.4,20.8,57.9,27,54.8,26.3,52,24.1,953,Extremes,10.4,9.1,8.1,24,-12.2,33.8,4.9,2.1,-15.7,35.3,-18.5,36.5,-21.3,37.7,-24.8,39.2
+#TYPICAL/EXTREME PERIODS,6,Summer - Week Nearest Max Temperature For Period,Extreme,6/ 1,6/ 7,Summer - Week Nearest Average Temperature For Period,Typical,8/17,8/23,Winter - Week Nearest Min Temperature For Period,Extreme,2/17,2/23,Winter - Week Nearest Average Temperature For Period,Typical,1/27,2/ 2,Autumn - Week Nearest Average Temperature For Period,Typical,9/29,10/ 5,Spring - Week Nearest Average Temperature For Period,Typical,4/12,4/18
+#GROUND TEMPERATURES,3,.5,,,,4.94,2.03,1.24,1.93,5.86,10.25,14.39,17.39,18.26,16.86,13.47,9.19,2,,,,7.56,4.83,3.54,3.49,5.56,8.57,11.81,14.58,16.01,15.75,13.83,10.89,4,,,,9.26,7.15,5.85,5.45,6.22,7.97,10.14,12.28,13.72,14.06,13.24,11.52
+#HOLIDAYS/DAYLIGHT SAVINGS,No,0,0,0
+#COMMENTS 1,"IWEC- WMO#103840 - Europe -- Original Source Data (c) 2001 American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE), Inc., Atlanta, GA, USA.  www.ashrae.org  All rights reserved as noted in the License Agreement and Additional Conditions. DISCLAIMER OF WARRANTIES: The data is provided 'as is' without warranty of any kind, either expressed or implied. The entire risk as to the quality and performance of the data is with you. In no event will ASHRAE or its contractors be liable to you for any damages, including without limitation any lost profits, lost savings, or other incidental or consequential damages arising out of the use or inability to use this data."
+#COMMENTS 2, -- Ground temps produced with a standard soil diffusivity of 2.3225760E-03 {m**2/day}
+#DATA PERIODS,1,1,Data,Sunday, 1/ 1,12/31
+#C1 Time in seconds. Beginning of a year is 0s.
+#C2 Dry bulb temperature in Celsius at indicated time
+#C3 Dew point temperature in Celsius at indicated time
+#C4 Relative humidity in percent at indicated time
+#C5 Atmospheric station pressure in Pa at indicated time
+#C6 Extraterrestrial horizontal radiation in Wh/m2
+#C7 Extraterrestrial direct normal radiation in Wh/m2
+#C8 Horizontal infrared radiation intensity in Wh/m2
+#C9 Global horizontal radiation in Wh/m2
+#C10 Direct normal radiation in Wh/m2
+#C11 Diffuse horizontal radiation in Wh/m2
+#C12 Averaged global horizontal illuminance in lux during minutes preceding the indicated time
+#C13 Direct normal illuminance in lux during minutes preceding the indicated time
+#C14 Diffuse horizontal illuminance in lux  during minutes preceding the indicated time
+#C15 Zenith luminance in Cd/m2 during minutes preceding the indicated time
+#C16 Wind direction at indicated time. N=0, E=90, S=180, W=270
+#C17 Wind speed in m/s at indicated time
+#C18 Total sky cover at indicated time
+#C19 Opaque sky cover at indicated time
+#C20 Visibility in km at indicated time
+#C21 Ceiling height in m
+#C22 Present weather observation
+#C23 Present weather codes
+#C24 Precipitable water in mm
+#C25 Aerosol optical depth
+#C26 Snow depth in cm
+#C27 Days since last snowfall
+#C28 Albedo
+#C29 Liquid precipitation depth in mm at indicated time
+#C30 Liquid precipitation quantity
+0.0	6.6	3.3	80	100100	0	1415	310	0	0	0	0	0	0	0	250	9.8	9	9	15.0	750	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+3600.0	6.6	3.3	80	100100	0	1415	310	0	0	0	0	0	0	0	250	9.8	9	9	15.0	750	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+7200.0	6.8	2.8	76	100200	0	1415	311	0	0	0	0	0	0	0	240	9.8	9	9	18.0	840	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+10800.0	7.0	2.4	72	100200	0	1415	311	0	0	0	0	0	0	0	240	7.7	9	9	18.0	750	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+14400.0	7.2	2.1	70	100300	0	1415	312	0	0	0	0	0	0	0	250	10.3	9	9	18.0	750	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+18000.0	7.3	2.0	69	100200	0	1415	312	0	0	0	0	0	0	0	240	10.8	9	9	25.0	750	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+21600.0	7.4	2.0	68	100200	0	1415	312	0	0	0	0	0	0	0	250	10.3	9	9	25.0	750	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+25200.0	7.0	2.1	71	100200	0	1415	311	0	0	0	0	0	0	0	250	8.2	10	9	25.0	840	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+28800.0	7.5	2.0	68	100200	0	1415	313	0	0	0	0	0	0	0	250	9.8	10	9	23.0	900	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+32400.0	7.7	2.4	69	100200	30	1415	314	2	0	2	300	0	300	90	250	11.8	10	9	20.0	1050	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+36000.0	8.0	2.8	70	100200	168	1415	316	15	0	15	1800	0	1800	600	250	10.8	10	9	20.0	1050	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+39600.0	7.6	2.6	71	100300	278	1415	314	33	0	33	3900	0	3900	1320	250	8.7	10	9	20.0	1050	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+43200.0	8.3	3.4	71	100300	340	1415	318	44	0	44	5200	0	5200	1790	250	10.3	10	9	20.0	1050	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+46800.0	8.4	3.5	71	100300	348	1415	307	45	0	45	5300	0	5400	1860	250	9.8	10	7	18.0	1050	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+50400.0	8.8	3.7	70	100300	303	1415	321	37	0	37	4400	0	4400	1500	250	9.3	10	9	22.0	900	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+54000.0	8.9	4.5	74	100200	207	1415	322	21	0	21	2500	0	2500	830	250	10.3	10	9	20.0	900	0	909999999	0	0.0980	0	88	0.000	0.0	0.0
+57600.0	8.9	4.3	73	100300	68	1415	331	5	0	5	600	0	600	190	250	8.7	10	10	20.0	600	9	999999999	0	0.0980	0	88	0.000	0.0	0.0
+61200.0	8.3	5.0	80	100300	0	1415	329	0	0	0	0	0	0	0	240	8.7	10	10	9.0	540	0	929999999	0	0.0980	0	88	0.000	0.0	0.0
+64800.0	7.1	4.9	86	100300	0	1415	323	0	0	0	0	0	0	0	230	8.7	10	10	8.0	480	0	929999999	0	0.0980	0	88	0.000	0.0	0.0
+68400.0	6.3	5.1	92	100300	0	1415	320	0	0	0	0	0	0	0	230	7.7	10	10	7.0	270	0	909999999	0	0.0980	0	88	0.000	0.0	0.0
+72000.0	6.1	4.5	89	100300	0	1415	318	0	0	0	0	0	0	0	230	6.7	10	10	10.0	540	0	909999999	0	0.0980	0	88	0.000	0.0	0.0
+75600.0	5.4	3.6	88	100200	0	1415	314	0	0	0	0	0	0	0	220	8.2	10	10	11.0	510	0	909999999	0	0.0980	0	88	0.000	0.0	0.0
+79200.0	5.5	3.3	86	100200	0	1415	314	0	0	0	0	0	0	0	230	7.7	10	10	10.0	540	0	909999999	0	0.0980	0	88	0.000	0.0	0.0
+82800.0	5.5	3.6	88	100100	0	1415	291	0	0	0	0	0	0	0	220	8.2	10	6	10.0	900	0	909999999	0	0.0980	0	88	0.000	0.0	0.0
+
