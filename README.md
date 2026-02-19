@@ -104,10 +104,17 @@ Autorin: Antonia Johanna Beatrice Spall
 - **training_FMUEnv.py** & **training_main.py**  
   Hauptskripte für Training und Evaluation der RL-Agenten
 
+- **simmodell.mo**
+  Dymola Datei des Simulationsmodells 
+  → Dependencies
+    * MSL 4.0.0
+    * AixLib 1.3.1
+    * MBL 9.1.0
+    * LibEAS 4.5.5 
+
 ---
 
 ## Weitere Hinweise
-
 - Logs (`events.out.tfevents.*`) stammen aus TensorBoard-Trainingsläufen. 
     Diese können mit dem Befehl `poetry run tensorboard --logdir agents/logs` ausgewertet werden
 - Dateien in `__pycache__` sind kompilierte Python-Module, können ignoriert werden  
